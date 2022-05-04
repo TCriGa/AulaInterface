@@ -9,7 +9,7 @@ class MenuzinFGeometricas(override var base: Double, override var altura: Double
     val triangulo: FormasGeometricas = Triangulo(base, altura)
 
     init {
-        println("|------------------Bem Vindo ao Sistem de Calculo de áreas Geométricas------------------|")
+        println("|------------------Bem Vindo ao Sistema de Calculo de áreas Geométricas------------------|")
     }
 
     fun opcaoMenu() {
@@ -42,7 +42,7 @@ class MenuzinFGeometricas(override var base: Double, override var altura: Double
                     println("Obrigada por utilizar nosso sistema!!! :)")
                     exitProcess(0)
                 }
-                else -> println("Opção inválida")
+                else -> println("Opção inválida. Digite novamente")
             }
 
         } while (true)
