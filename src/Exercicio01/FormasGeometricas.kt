@@ -1,11 +1,11 @@
 package Exercicio01
 
 interface FormasGeometricas {
-    var base :Double
-    var altura :Double
+    var base: Double
+    var altura: Double
     fun areaFormasGeometricas(): Double
 
-   open fun dados() {
+    fun dados() {
 
         println("Informe o valor da base: ")
         base = readln().toDouble()

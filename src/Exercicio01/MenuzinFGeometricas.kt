@@ -4,9 +4,9 @@ import kotlin.system.exitProcess
 
 class MenuzinFGeometricas(override var base: Double, override var altura: Double) : FormasGeometricas {
 
-    val retangulo: FormasGeometricas = Retangulo(base, altura)
-    val quadrado: FormasGeometricas = Quadrado(base, altura)
-    val triangulo: FormasGeometricas = Triangulo(base, altura)
+    private val retangulo: FormasGeometricas = Retangulo(base, altura)
+    private val quadrado: FormasGeometricas = Quadrado(base, altura)
+    private val triangulo: FormasGeometricas = Triangulo(base, altura)
 
     init {
         println("|------------------Bem Vindo ao Sistema de Calculo de áreas Geométricas------------------|")
